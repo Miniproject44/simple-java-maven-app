@@ -19,7 +19,7 @@ pipeline {
         stage('Deliver') {
             steps {
                 sh './jenkins/scripts/deliver.sh'
-            }
+            } }
             stage('Say hi') {
             steps {
                 echo "hi!"
@@ -27,4 +27,4 @@ pipeline {
         }
     }
 }
-}
+
